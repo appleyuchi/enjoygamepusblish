@@ -1,0 +1,11 @@
+# nginx -c /etc/nginx/nginx.conf
+# nginx -s reload
+
+python hello.py
+然后访问:
+127.0.0.1:10072/home即可
+
+
+注意：
+在抄袭网页的时候，
+一定要利用Save All Resources来保存网页信息，否则会导致一小部分样式丢失
